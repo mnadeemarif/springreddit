@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: reddit
+  datasource:
+    username: 'nadeem'
+    url: jdbc:postgresql://localhost:5432/reddit
+    password: password
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: 'true'
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
+
+  mail:
+    host: smtp.mailtrap.io
+    port: 25
+    username: "00719ae3ba2245"
+    password: "bc5d2fe694d0fd"
+    protocol: "smtp"
