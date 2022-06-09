@@ -23,3 +23,7 @@ spring:
     username: "00719ae3ba2245"
     password: "bc5d2fe694d0fd"
     protocol: "smtp"
+
+jwt:
+  expiration:
+    time: 90000
